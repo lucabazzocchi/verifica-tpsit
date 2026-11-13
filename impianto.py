@@ -42,5 +42,5 @@ class ImpiantoSolare():
             if pannello.potenza_kw <= potenza_massima
                 result.append(pannello)
         return result
-    #prova per commit
+    #prova per commit 1
     
