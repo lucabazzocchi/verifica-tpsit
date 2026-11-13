@@ -11,4 +11,9 @@ class Main()
             raise ValueError("impianto gia presente")
         impianto.append(impianto)
         return None
-    def 
+    def cerca_impianto(self, codice:str) -> ImpiantoSolare
+        for impianto in self.impianti
+            if impianto.codice == codice
+                return impianto
+        return None
+            
